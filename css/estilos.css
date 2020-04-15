@@ -1,451 +1,623 @@
-                    body {
-                        margin: 0;
-                        padding: 0;
-                    }
-                    
-                    .header {
-                        background-image: url(https://i.imgur.com/MlEWgxQ.png);
-                        background-size: 100%;
-                        background-repeat: no-repeat;
-                        background-position: center;
-                        color: white;
-                        display: flex;
-                        height: 400px;
-                        align-items: center;
-                        justify-content: space-between;
-                        flex-wrap: wrap;
-                    }
-                    
-                    ol,
-                    li {
-                        margin: 0;
-                        padding: 0;
-                        list-style: none;
-                    }
-                    
-                    .header a {
-                        color: white;
-                        text-decoration: none;
-                        font-family: 'Russo One', sans-serif;
-                        font-weight: bold;
-                        height: inherit;
-                        display: flex;
-                        align-items: center;
-                        padding: 0 20px;
-                    }
-                    
-                    .menu {
-                        position: relative;
-                        left: 34em;
-                        bottom: 7em;
-                    }
-                    
-                    .header ol {
-                        display: flex;
-                        height: inherit;
-                    }
-                    
-                    .header ol li {
-                        height: inherit;
-                    }
-                    
-                    .video-home {
-                        width: 100%;
-                        background-color: black;
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                    }
-                    
-                    .home-init {}
-                    
-                    .home-container {
-                        margin: 0;
-                    }
-                    
-                    .home-view {}
-                    
-                    .view {}
-                    
-                    .sobrecdp {
-                        background-image: url(https://i.imgur.com/Tks0DKY.jpg);
-                        width: 100%;
-                        height: auto;
-                    }
-                    
-                    .box {
-                        position: relative;
-                        width: 100%;
-                        height: 5em;
-                    }
-                    
-                    h1 {
-                        color: white;
-                        background: black;
-                        width: 1470px;
-                        position: absolute;
-                        top: 1em;
-                        left: 4em;
-                        margin: 0;
-                        font-family: 'Russo One', sans-serif;
-                    }
-                    
-                    h1 strong {
-                        position: relative;
-                        left: 0.2em;
-                        font-size: 2em;
-                    }
-                    
-                    .sinopsis {
-                        display: flex;
-                    }
-                    
-                    .sinopsis-cont {
-                        width: 50%;
-                        height: 400px;
-                    }
-                    
-                    .sinopsis-cont.one {
-                        padding-left: 6em;
-                        padding-right: 2em;
-                    }
-                    
-                    .sinopsis-cont.two {
-                        padding-left: 2em;
-                        padding-right: 6em;
-                    }
-                    
-                    .sinopsis-description {
-                        font-family: 'Comic Neue', cursive;
-                        font-weight: bold;
-                        font-size: 1.5em;
-                        color: black;
-                    }
-                    
-                    section {
-                        display: inherit;
-                    }
-                    
-                    .temporadas {
-                        background-image: url(https://i.imgur.com/Tks0DKY.jpg);
-                        width: 100%;
-                        height: auto;
-                    }
-                    
-                    h2 {
-                        color: black;
-                        background: #bc3427;
-                        width: 1470px;
-                        position: absolute;
-                        top: 1em;
-                        left: 4em;
-                        margin: 0;
-                        font-family: 'Russo One', sans-serif;
-                    }
-                    
-                    h2 strong {
-                        position: relative;
-                        left: 0.2em;
-                        font-size: 2em;
-                    }
-                    
-                    .temporada-1 {
-                        display: flex;
-                        width: 60%;
-                        margin: auto;
-                        padding-top: 4em;
-                    }
-                    
-                    .image-cont {
-                        margin: 0;
-                    }
-                    
-                    .image-t1 {
-                        width: 203px;
-                        height: 330px;
-                    }
-                    
-                    .box-two {
-                        position: relative;
-                        width: 100%;
-                        height: 5em;
-                    }
-                    
-                    .temporada-detalles {
-                        padding-left: 2em;
-                        background-color: black;
-                        height: 330px;
-                    }
-                    
-                    h3 {
-                        color: black;
-                        background: white;
-                        width: 400px;
-                        font-family: 'Russo One', sans-serif;
-                        margin: 0.5em 0;
-                    }
-                    
-                    h3 strong {
-                        position: relative;
-                        left: 0.2em;
-                        font-size: 1.2em;
-                    }
-                    
-                    .box-three {}
-                    
-                    .temporada-detalles p {
-                        font-family: 'Comic Neue', cursive;
-                        margin: 0;
-                        color: white;
-                    }
-                    
-                    .temporada-detalles p strong {
-                        color: #bc3427;
-                    }
-                    
-                    .project-description {
-                        font-family: 'Comic Neue', cursive;
-                        font-size: 0.87em;
-                        margin-top: 1em;
-                        display: block;
-                        margin-right: 3em;
-                        color: white;
-                    }
-                    
-                    .image-t2 {
-                        width: 203px;
-                        height: 330px;
-                        position: relative;
-                        left: 50em;
-                    }
-                    
-                    .temporada-detalles2 {
-                        position: relative;
-                        right: 13em;
-                    }
-                    
-                    .project-description2 {
-                        font-family: 'Comic Neue', cursive;
-                        font-size: 1.2em;
-                        font-weight: bold;
-                        margin-top: 3em;
-                        display: block;
-                        margin-right: 3em;
-                        color: black;
-                    }
-                    
-                    .temporada-detalles2 p {
-                        font-family: 'Comic Neue', cursive;
-                        margin: 0;
-                        color: black;
-                        font-weight: bold;
-                    }
-                    
-                    .temporada-detalles2 p strong {
-                        color: #e5574b;
-                        font-weight: bold;
-                    }
-                    
-                    h4 {
-                        color: white;
-                        background: black;
-                        width: 400px;
-                        font-family: 'Russo One', sans-serif;
-                        margin: 0.5em 0;
-                    }
-                    
-                    h4 strong {
-                        position: relative;
-                        left: 0.2em;
-                        font-size: 1.2em;
-                    }
-                    
-                    .project-description3 {
-                        font-family: 'Comic Neue', cursive;
-                        font-size: 0.89em;
-                        margin-top: 3em;
-                        display: block;
-                        margin-right: 3em;
-                        color: white;
-                    }
-                    
-                    .project-description4 {
-                        font-family: 'Comic Neue', cursive;
-                        font-size: 1.2em;
-                        font-weight: bold;
-                        margin-top: 1.8em;
-                        display: block;
-                        margin-right: 3em;
-                        color: black;
-                    }
-                    
-                    .trailers {
-                        display: flex;
-                        flex-wrap: wrap;
-                        background-color: black;
-                    }
-                    
-                    .event-1 {
-                        padding-left: 11%;
-                    }
-                    
-                    .event-2 {
-                        padding-right: 11%;
-                    }
-                    
-                    .event-3 {
-                        margin-left: 11%;
-                    }
-                    
-                    .event-4 {
-                        margin-right: 11%;
-                    }
-                    
-                    .warriors-cont {}
-                    
-                    .warriors {
-                        width: 35em;
-                    }
-                    
-                    @font-face {
-                        font-family: 'icomoon';
-                        src: url('../fonts/icomoon.eot?mq3ix3');
-                        src: url('../fonts/icomoon.eot?mq3ix3#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?mq3ix3') format('truetype'), url('../fonts/icomoon.woff?mq3ix3') format('woff'), url('../fonts/icomoon.svg?mq3ix3#icomoon') format('svg');
-                        font-weight: normal;
-                        font-style: normal;
-                        font-display: block;
-                    }
-                    
-                    [class^="icon-"],
-                    [class*=" icon-"] {
-                        /* use !important to prevent issues with browser extensions that change fonts */
-                        font-family: 'icomoon' !important;
-                        speak: none;
-                        font-style: normal;
-                        font-weight: normal;
-                        font-variant: normal;
-                        text-transform: none;
-                        line-height: 1;
-                        /* Better Font Rendering =========== */
-                        -webkit-font-smoothing: antialiased;
-                        -moz-osx-font-smoothing: grayscale;
-                    }
-                    
-                    .icon-gmail:before {
-                        content: "\e900";
-                        color: #d14836;
-                        width: 50px;
-                        height: 50px;
-                        display: inline-block;
-                        margin: 0 10px;
-                    }
-                    
-                    .icon-instagram:before {
-                        content: "\e901";
-                        color: #e4405f;
-                        width: 50px;
-                        height: 50px;
-                        display: inline-block;
-                        margin: 0 10px;
-                        font-size: -webkit-xxx-large;
-                    }
-                    
-                    .icon-github:before {
-                        content: "\e902";
-                        width: 50px;
-                        height: 50px;
-                        display: inline-block;
-                        margin: 0 10px;
-                        font-size: -webkit-xxx-large;
-                    }
-                    
-                    .icon-facebook:before {
-                        content: "\e903";
-                        color: #1877f2;
-                        width: 50px;
-                        height: 50px;
-                        display: inline-block;
-                        margin: 0 10px;
-                        font-size: -webkit-xxx-large;
-                    }
-                    
-                    .icon-twitter:before {
-                        content: "\e904";
-                        color: #1da1f2;
-                        width: 50px;
-                        height: 50px;
-                        display: inline-block;
-                        margin: 0 10px;
-                        font-size: -webkit-xxx-large;
-                    }
-                    
-                    .form-email input {
-                        border-color: gray;
-                        border-radius: 5px;
-                        border-style: solid;
-                        padding: 10px 20px 10px 25px;
-                        background-image: url("../img/envelope.svg");
-                        background-size: 15px 15px;
-                        background-repeat: no-repeat;
-                        background-position-y: center;
-                        background-position-x: 5px;
-                    }
-                    
-                    .form-email button {
-                        display: block;
-                        margin-top: 10px;
-                        background: transparent;
-                        color: white;
-                        padding: 10px 0px;
-                        border-radius: 5px;
-                        width: 100px;
-                        /*margin: 10px auto 0;*/
-                    }
-                    
-                    .form-email h5 {
-                        font-family: "Source Sans Pro", sans-serif;
-                        ;
-                    }
-                    
-                    .contact {
-                        background-image: url(https://i.imgur.com/Tks0DKY.jpg);
-                        color: black;
-                        height: 150px;
-                        display: flex;
-                        align-items: center;
-                        justify-content: space-between;
-                        flex-wrap: wrap;
-                        padding: 0 15em;
-                    }
-                    
-                    .footer {
-                        background-image: url(https://i.imgur.com/Tks0DKY.jpg);
-                        color: black;
-                        display: flex;
-                        align-items: center;
-                        justify-content: space-between;
-                        flex-wrap: wrap;
-                        padding: 0 15em;
-                        font-family: 'Russo One', sans-serif;
-                    }
-                    
-                    .footer img {
-                        vertical-align: middle;
-                        padding-left: 9em;
-                    }
-                    
-                    .footer a {
-                        color: white;
-                    }
-                    
-                    .container {
-                        /*   max-width: 100%; */
-                        width: 100%;
-                        /*    flex: 1; */
-                        margin: 0 auto;
-                        display: inherit;
-                        justify-content: inherit;
-                        align-items: inherit;
-                        height: inherit;
-                        flex-wrap: inherit;
-                    }
+                        body {
+                            margin: 0;
+                            padding: 0;
+                        }
+                        
+                        .header {
+                            background: black;
+                            color: white;
+                            display: flex;
+                            height: 70px;
+                            align-items: center;
+                            justify-content: center;
+                            flex-wrap: wrap;
+                        }
+                        
+                        ol,
+                        li {
+                            margin: 0;
+                            padding: 0;
+                            list-style: none;
+                        }
+                        
+                        .header a {
+                            color: white;
+                            text-decoration: none;
+                            font-family: 'Russo One', sans-serif;
+                            font-weight: bold;
+                            height: inherit;
+                            display: flex;
+                            align-items: center;
+                            padding: 0 20px;
+                        }
+                        
+                        .menu {}
+                        
+                        .header ol {
+                            display: flex;
+                            height: inherit;
+                        }
+                        
+                        .header ol li {
+                            height: inherit;
+                        }
+                        
+                        .fondo {
+                            height: 300px;
+                        }
+                        
+                        img {
+                            width: 100%;
+                            height: inherit;
+                        }
+                        
+                        .video-home {
+                            width: 100%;
+                            background-color: black;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            height: 600px;
+                        }
+                        
+                        .home-init {
+                            width: 50%;
+                        }
+                        
+                        .home-container {
+                            margin: 0;
+                        }
+                        
+                        .home-view {
+                            width: 100%;
+                            height: 0;
+                            padding-top: 56.25%;
+                            position: relative;
+                        }
+                        
+                        .view {
+                            position: absolute;
+                            top: 0;
+                            bottom: 0;
+                            right: 0;
+                            left: 0;
+                            width: 100%;
+                            height: 100%;
+                        }
+                        
+                        .sobrecdp {
+                            background-image: url(https://i.imgur.com/Tks0DKY.jpg);
+                            width: 100%;
+                            height: auto;
+                        }
+                        
+                        .box {
+                            position: relative;
+                            width: 100%;
+                            height: 5em;
+                        }
+                        
+                        h1 {
+                            color: white;
+                            background: black;
+                            width: 88%;
+                            position: absolute;
+                            top: 27%;
+                            left: 6%;
+                            margin: 0;
+                            font-family: 'Russo One', sans-serif;
+                        }
+                        
+                        h1 strong {
+                            position: relative;
+                            left: 0.2em;
+                            font-size: 2em;
+                        }
+                        
+                        .sinopsis {
+                            display: flex;
+                        }
+                        
+                        .sinopsis-cont {
+                            width: 50%;
+                            height: auto;
+                        }
+                        
+                        .sinopsis-cont.one {
+                            padding-left: 6%;
+                            padding-right: 2%;
+                        }
+                        
+                        .sinopsis-cont.two {
+                            padding-left: 2%;
+                            padding-right: 6%;
+                        }
+                        
+                        .sinopsis-description {
+                            font-family: 'Comic Neue', cursive;
+                            font-weight: bold;
+                            font-size: 140%;
+                            color: black;
+                        }
+                        
+                        section {
+                            display: inherit;
+                        }
+                        
+                        .temporadas {
+                            background-image: url(https://i.imgur.com/Tks0DKY.jpg);
+                            width: 100%;
+                            height: auto;
+                        }
+                        
+                        h2 {
+                            color: black;
+                            background: #bc3427;
+                            width: 88%;
+                            position: absolute;
+                            top: 1em;
+                            left: 4em;
+                            margin: 0;
+                            font-family: 'Russo One', sans-serif;
+                        }
+                        
+                        h2 strong {
+                            position: relative;
+                            left: 0.2em;
+                            font-size: 2em;
+                        }
+                        
+                        .temporada-1 {
+                            display: flex;
+                            width: 60%;
+                            margin: auto;
+                            padding-top: 3%;
+                        }
+                        
+                        .image-cont {
+                            margin: 0;
+                        }
+                        
+                        .image-t1 {
+                            width: 203px;
+                            height: 330px;
+                        }
+                        
+                        .box-two {
+                            position: relative;
+                            width: 100%;
+                            height: 5em;
+                        }
+                        
+                        .temporada-detalles {
+                            padding-left: 3%;
+                            background-color: black;
+                            height: 20.625em;
+                        }
+                        
+                        h3 {
+                            color: black;
+                            background: white;
+                            width: 53%;
+                            font-family: 'Russo One', sans-serif;
+                            margin: 0.5em 0;
+                        }
+                        
+                        h3 strong {
+                            position: relative;
+                            left: 0.2em;
+                            font-size: 1.2em;
+                        }
+                        
+                        .box-three {}
+                        
+                        .temporada-detalles p {
+                            font-family: 'Comic Neue', cursive;
+                            margin: 0;
+                            color: white;
+                        }
+                        
+                        .temporada-detalles p strong {
+                            color: #bc3427;
+                        }
+                        
+                        .project-description {
+                            font-family: 'Comic Neue', cursive;
+                            font-size: 0.87em;
+                            margin-top: 1em;
+                            display: block;
+                            margin-right: 3em;
+                            color: white;
+                        }
+                        
+                        .image-t2 {
+                            width: 203px;
+                            height: 330px;
+                            position: relative;
+                            left: 50em;
+                        }
+                        
+                        .temporada-detalles2 {
+                            position: relative;
+                            right: 13em;
+                        }
+                        
+                        .project-description2 {
+                            font-family: 'Comic Neue', cursive;
+                            font-size: 1.2em;
+                            font-weight: bold;
+                            margin-top: 3em;
+                            display: block;
+                            margin-right: 3em;
+                            color: black;
+                        }
+                        
+                        .temporada-detalles2 p {
+                            font-family: 'Comic Neue', cursive;
+                            margin: 0;
+                            color: black;
+                            font-weight: bold;
+                        }
+                        
+                        .temporada-detalles2 p strong {
+                            color: #e5574b;
+                            font-weight: bold;
+                        }
+                        
+                        h4 {
+                            color: white;
+                            background: black;
+                            width: 53%;
+                            font-family: 'Russo One', sans-serif;
+                            margin: 0.5em 0;
+                        }
+                        
+                        h4 strong {
+                            position: relative;
+                            left: 0.2em;
+                            font-size: 1.2em;
+                        }
+                        
+                        .project-description3 {
+                            font-family: 'Comic Neue', cursive;
+                            font-size: 0.89em;
+                            margin-top: 3em;
+                            display: block;
+                            margin-right: 3em;
+                            color: white;
+                        }
+                        
+                        .project-description4 {
+                            font-family: 'Comic Neue', cursive;
+                            font-size: 1.2em;
+                            font-weight: bold;
+                            margin-top: 1.8em;
+                            display: block;
+                            margin-right: 3em;
+                            color: black;
+                        }
+                        
+                        .trailers {
+                            display: flex;
+                            flex-wrap: wrap;
+                            background-color: black;
+                        }
+                        
+                        .event-1 {
+                            padding-left: 11%;
+                        }
+                        
+                        .event-2 {
+                            padding-right: 11%;
+                        }
+                        
+                        .event-3 {
+                            margin-left: 11%;
+                        }
+                        
+                        .event-4 {
+                            margin-right: 11%;
+                        }
+                        
+                        .warriors-cont {}
+                        
+                        .warriors {
+                            width: 35em;
+                        }
+                        
+                        @font-face {
+                            font-family: 'icomoon';
+                            src: url('../fonts/icomoon.eot?mq3ix3');
+                            src: url('../fonts/icomoon.eot?mq3ix3#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?mq3ix3') format('truetype'), url('../fonts/icomoon.woff?mq3ix3') format('woff'), url('../fonts/icomoon.svg?mq3ix3#icomoon') format('svg');
+                            font-weight: normal;
+                            font-style: normal;
+                            font-display: block;
+                        }
+                        
+                        [class^="icon-"],
+                        [class*=" icon-"] {
+                            /* use !important to prevent issues with browser extensions that change fonts */
+                            font-family: 'icomoon' !important;
+                            speak: none;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-variant: normal;
+                            text-transform: none;
+                            line-height: 1;
+                            /* Better Font Rendering =========== */
+                            -webkit-font-smoothing: antialiased;
+                            -moz-osx-font-smoothing: grayscale;
+                        }
+                        
+                        .icon-gmail:before {
+                            content: "\e900";
+                            color: #d14836;
+                            width: 50px;
+                            height: 50px;
+                            display: inline-block;
+                            margin: 0 10px;
+                        }
+                        
+                        .icon-instagram:before {
+                            content: "\e901";
+                            color: #e4405f;
+                            width: 50px;
+                            height: 50px;
+                            display: inline-block;
+                            margin: 0 10px;
+                            font-size: -webkit-xxx-large;
+                        }
+                        
+                        .icon-github:before {
+                            content: "\e902";
+                            width: 50px;
+                            height: 50px;
+                            display: inline-block;
+                            margin: 0 10px;
+                            font-size: -webkit-xxx-large;
+                        }
+                        
+                        .icon-facebook:before {
+                            content: "\e903";
+                            color: #1877f2;
+                            width: 50px;
+                            height: 50px;
+                            display: inline-block;
+                            margin: 0 10px;
+                            font-size: -webkit-xxx-large;
+                        }
+                        
+                        .icon-twitter:before {
+                            content: "\e904";
+                            color: #1da1f2;
+                            width: 50px;
+                            height: 50px;
+                            display: inline-block;
+                            margin: 0 10px;
+                            font-size: -webkit-xxx-large;
+                        }
+                        
+                        .form-email input {
+                            border-color: gray;
+                            border-radius: 5px;
+                            border-style: solid;
+                            padding: 10px 20px 10px 25px;
+                            background-image: url("../img/envelope.svg");
+                            background-size: 15px 15px;
+                            background-repeat: no-repeat;
+                            background-position-y: center;
+                            background-position-x: 5px;
+                        }
+                        
+                        .form-email button {
+                            display: block;
+                            margin-top: 10px;
+                            background: transparent;
+                            color: white;
+                            padding: 10px 0px;
+                            border-radius: 5px;
+                            width: 100px;
+                            /*margin: 10px auto 0;*/
+                        }
+                        
+                        .form-email h5 {
+                            font-family: 'Russo One', sans-serif;
+                            font-size: 1em;
+                        }
+                        
+                        .contact {
+                            background-image: url(https://i.imgur.com/Tks0DKY.jpg);
+                            color: black;
+                            height: 150px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            flex-wrap: wrap;
+                            padding: 0 15em;
+                        }
+                        
+                        .footer {
+                            background-image: url(https://i.imgur.com/Tks0DKY.jpg);
+                            color: black;
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            flex-wrap: wrap;
+                            padding: 0 15em;
+                            font-family: 'Russo One', sans-serif;
+                        }
+                        
+                        .footer img {
+                            vertical-align: middle;
+                            padding-left: 9em;
+                        }
+                        
+                        .footer a {
+                            color: black;
+                        }
+                        
+                        .container {
+                            max-width: 1680px;
+                            /* width: 100%; */
+                            flex: 1;
+                            margin: 0 auto;
+                            display: inherit;
+                            justify-content: inherit;
+                            align-items: inherit;
+                            height: inherit;
+                            flex-wrap: inherit;
+                            border: 1px solid red;
+                        }
+                        
+                        @media screen and (max-width:1023px) {
+                            .video-home {
+                                height: 350px;
+                            }
+                            h2 {
+                                width: 95%;
+                                left: 1em;
+                            }
+                            .temporada-1 {
+                                width: 95%;
+                            }
+                            .image-cont {
+                                width: 24%;
+                                height: auto;
+                                margin: 0;
+                            }
+                            .image-t1 {
+                                width: 100%;
+                                height: 100%;
+                            }
+                            .image-t2 {
+                                width: 100%;
+                                height: 100%;
+                                left: 316%;
+                            }
+                            .temporada-detalles {
+                                width: 76%;
+                                height: auto;
+                            }
+                            .temporada-detalles2 {
+                                width: 76%;
+                                height: auto;
+                            }
+                        }
+                        
+                        @media screen and (max-width: 767px) {
+                            .header {
+                                display: block;
+                                height: auto;
+                            }
+                            .header ol {
+                                display: block;
+                                text-align: center;
+                            }
+                            .header a {
+                                display: block;
+                                padding: 10px;
+                            }
+                            .fondo {
+                                height: 250px;
+                            }
+                            h1 strong {
+                                font-size: 1.5em;
+                            }
+                            .sinopsis-description {
+                                font-size: 90%;
+                            }
+                            h3 strong {
+                                font-size: 1em;
+                            }
+                            .project-description {
+                                font-size: 59%;
+                                margin-right: 0;
+                            }
+                            .temporada-detalles2 {
+                                right: 23%;
+                            }
+                            .project-description2 {
+                                margin-top: 1em;
+                                margin-right: 1em;
+                            }
+                        }
+                        
+                        @media screen and (max-width: 480px) {
+                            .home-init {
+                                width: 80%;
+                            }
+                            h1 strong {
+                                font-size: 1.2em;
+                            }
+                            .sinopsis-description {
+                                font-size: 68%;
+                            }
+                            h2 {
+                                width: 90%;
+                            }
+                            h2 strong {
+                                font-size: 1.2em;
+                            }
+                            span strong {
+                                display: none;
+                            }
+                            .project-description {
+                                font-size: 70%;
+                            }
+                            .temporada-detalles p {
+                                font-size: 70%;
+                            }
+                            .project-description2 {
+                                font-size: 0.8em;
+                            }
+                            .project-description3 {
+                                margin-top: 0.8em;
+                                margin-right: 0;
+                                font-size: 0.75em;
+                            }
+                            .project-description4 {
+                                margin-top: 0.5em;
+                                margin-right: 2em;
+                                font-size: 0.75em;
+                            }
+                        }
+                        
+                        @media screen and (max-width: 320px) {
+                            .fondo {
+                                height: 150px;
+                            }
+                            .video-home {
+                                height: auto;
+                            }
+                            .home-init {
+                                width: 90%;
+                                padding: 10%;
+                            }
+                            .box {
+                                height: 2.5em;
+                            }
+                            h1 strong {
+                                font-size: 1em;
+                            }
+                            .sinopsis-description {
+                                font-size: 55%;
+                            }
+                            .temporada-detalles {
+                                width: 100%;
+                            }
+                            .image-cont {
+                                display: none;
+                            }
+                            .temporada-detalles2 {
+                                width: 100%;
+                                position: static;
+                            }
+                            .project-description2 {
+                                margin-top: 0;
+                                margin-right: 0;
+                            }
+                            .project-description4 {
+                                margin-top: 0;
+                                margin-right: 0;
+                            }
+                        }
