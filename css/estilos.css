@@ -534,9 +534,13 @@
                             h3 strong {
                                 font-size: 1em;
                             }
+                            span strong {
+                                font-weight: normal;
+                            }
                             .project-description {
                                 font-size: 59%;
                                 margin-right: 0;
+                                padding-right: 10%;
                             }
                             .temporada-detalles2 {
                                 right: 23%;
@@ -544,6 +548,17 @@
                             .project-description2 {
                                 margin-top: 1em;
                                 margin-right: 1em;
+                            }
+                            .project-description3 {
+                                font-size: 0.8em;
+                                margin-top: 1em;
+                                margin-right: 1em;
+                            }
+                            .project-description4 {
+                                font-size: 1em;
+                                margin-top: 1em;
+                                margin-right: 1em;
+                                padding-bottom: 1em;
                             }
                             .event {
                                 width: 100%;
@@ -574,6 +589,7 @@
                             }
                             .project-description {
                                 font-size: 70%;
+                                padding-bottom: 1em;
                             }
                             .temporada-detalles p {
                                 font-size: 70%;
@@ -585,6 +601,7 @@
                                 margin-top: 0.8em;
                                 margin-right: 0;
                                 font-size: 0.75em;
+                                padding-bottom: 1em;
                             }
                             .project-description4 {
                                 margin-top: 0.5em;
