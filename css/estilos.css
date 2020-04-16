@@ -303,26 +303,30 @@
                             background-color: black;
                         }
                         
-                        .event-1 {
-                            padding-left: 11%;
+                        .event {
+                            width: 48%;
                         }
                         
-                        .event-2 {
-                            padding-right: 11%;
+                        .event-imageContainer {
+                            margin: 0;
+                            padding: 10%;
                         }
                         
-                        .event-3 {
-                            margin-left: 11%;
+                        .warriors-cont {
+                            width: 100%;
+                            height: 0;
+                            padding-top: 56.25%;
+                            position: relative;
                         }
-                        
-                        .event-4 {
-                            margin-right: 11%;
-                        }
-                        
-                        .warriors-cont {}
                         
                         .warriors {
-                            width: 35em;
+                            position: absolute;
+                            top: 0;
+                            bottom: 0;
+                            right: 0;
+                            left: 0;
+                            width: 100%;
+                            height: 100%;
                         }
                         
                         @font-face {
@@ -428,12 +432,12 @@
                         .contact {
                             background-image: url(https://i.imgur.com/Tks0DKY.jpg);
                             color: black;
-                            height: 150px;
+                            height: auto;
                             display: flex;
                             align-items: center;
                             justify-content: space-between;
                             flex-wrap: wrap;
-                            padding: 0 15em;
+                            padding: 1% 3%;
                         }
                         
                         .footer {
@@ -443,13 +447,14 @@
                             align-items: center;
                             justify-content: space-between;
                             flex-wrap: wrap;
-                            padding: 0 15em;
+                            padding: 0 3%;
                             font-family: 'Russo One', sans-serif;
                         }
                         
                         .footer img {
                             vertical-align: middle;
                             padding-left: 9em;
+                            width: 10%;
                         }
                         
                         .footer a {
@@ -540,9 +545,15 @@
                                 margin-top: 1em;
                                 margin-right: 1em;
                             }
+                            .event {
+                                width: 100%;
+                            }
                         }
                         
                         @media screen and (max-width: 480px) {
+                            .fondo {
+                                height: 180px;
+                            }
                             .home-init {
                                 width: 80%;
                             }
@@ -579,6 +590,32 @@
                                 margin-top: 0.5em;
                                 margin-right: 2em;
                                 font-size: 0.75em;
+                            }
+                            form {
+                                text-align: center;
+                                width: 100%;
+                            }
+                            .form-email button {
+                                margin: 5px auto 5px;
+                            }
+                            .social {
+                                width: 100%;
+                                text-align: center;
+                                padding: 5%;
+                            }
+                            .footer {
+                                display: block;
+                            }
+                            .footer p {
+                                margin: 0;
+                                width: 100%;
+                                text-align: center;
+                                padding: 0;
+                            }
+                            .footer img {
+                                padding-top: 5%;
+                                padding-left: 0;
+                                width: 25%;
                             }
                         }
                         
